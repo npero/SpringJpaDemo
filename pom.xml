@@ -21,6 +21,10 @@
       <id>nexus</id>
       <url>http://localhost:8091/nexus/content/repositories/build</url>
     </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <url>http://localhost:8091/nexus/content/repositories/build</url>
+    </snapshotRepository>
   </distributionManagement>
 
 	<dependencies>
