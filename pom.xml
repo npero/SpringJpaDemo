@@ -20,7 +20,7 @@
     <repository>
       <id>nexus</id>
       <name>MyCo Internal Repository</name>
-      <url>Host to Company Repository</url>
+      <url>http://localhost:8091/nexus/content/repositories/build</url>
     </repository>
   </distributionManagement>
 
