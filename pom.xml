@@ -19,7 +19,6 @@
 	<distributionManagement>
     <repository>
       <id>nexus</id>
-      <name>MyCo Internal Repository</name>
       <url>http://localhost:8091/nexus/content/repositories/build</url>
     </repository>
   </distributionManagement>
