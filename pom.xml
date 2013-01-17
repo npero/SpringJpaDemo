@@ -17,15 +17,12 @@
 	</properties>
 	
 	<distributionManagement>
-    <repository>
-      <id>nexus</id>
-      <url>http://localhost:8091/nexus/content/repositories/build</url>
-    </repository>
-    <snapshotRepository>
-      <id>nexus</id>
-      <url>http://localhost:8091/nexus/content/repositories/build</url>
-    </snapshotRepository>
-  </distributionManagement>
+        <!-- Nexus repository -->
+        <repository>
+            <id>cibg-nexus</id>
+            <url>http://192.168.102.17:8080/nexus-2.0/content/repositories/thirdparty</url>
+        </repository>
+    </distributionManagement>
 
 	<dependencies>
 
